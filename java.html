@@ -1,31 +1,91 @@
-
-<html>
-    <head>
-        <title>
-            웹페이지
-        </title>
-
-    </head>
-    <body>
-        
-        <div>
-            <div style="width: 100%; height: 30%; background-color: darkred;" class="content" >
-                <p style="color: rgb(64, 202, 133);" >
-                    안녕하세요
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디렉터 페이지</title>
+    <style>
+        html{
+            width: 100%;
+            height: 100%;
+        }
+        div.mainpage{
+            display: flex;
+        }
+        div.sellectspace_name{
+            border: 1px solid;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        div.sellect_choice{
+            border: 1px solid;
+        }
+        div.maindellector_page{
+            padding: 30px;
+            border: 1px solid;
+        }
+        div.name{
+            margin: 20px;
+        }
+        div.technology_language{
+            margin: 20px;
+        }
+        div.info{
+            margin: 20px;
+        }div.infoimg{
+            margin: 20px;
+        }
+        div.info_url{
+            margin: 20px;
+        }
+    </style>
+    <script>
+        let sel = {0 : "목록1" , 1 : "목록2" , 2 : "목록3"}
+    </script>
+</head>
+<body>
+    <div class="mainpage">
+        <div class="sellectspace">
+            <div class="sellectspace_name">
+                <p>
+                    디렉터 페이지
                 </p>
-
             </div>
-            <div>
-                <button class="btn" style="color: blanchedalmond; background-color: blueviolet;" type="button" onclick="location.href = 'java1.html'" >
-                    이동
-                    <!--
-                    홈페이지 이동
-    `               -->
-
-                </button>
+            <div class="sellect_choice">
+                <p>
+                    목록1
+                </p> 
+                <p>
+                    목록1
+                </p> 
+                <p>
+                    목록1
+                </p> 
+                <p>
+                    목록1
+                </p> 
+                <p>
+                    목록1
+                </p> 
             </div>
         </div>
-    </body>
-
-
+        <div class="maindellector_page">
+            <div class="name">
+                한민섭
+            </div>
+            <div class="technology_language">
+                 node.js
+            </div>
+            <div class="info">
+                노드js를 이용하여 페이지르 완성
+            </div>
+            <div class="infoimg">
+                이미지
+            </div>
+            <div class="info_url">
+                참고 링크
+            </div>
+        </div>
+    </div>
+</body>
 </html>
